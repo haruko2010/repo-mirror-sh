@@ -1,0 +1,9 @@
+metadata:
+    name: helloworld
+    format: "LAVA-Test-shell Test Definition 2.0"
+    description: "kernel test"
+    maintainer:
+        - yangjianxiang@huawei.com
+run:
+    steps:
+        - 'cd /root/repo-mirror-sh;sh helloworld.sh'
